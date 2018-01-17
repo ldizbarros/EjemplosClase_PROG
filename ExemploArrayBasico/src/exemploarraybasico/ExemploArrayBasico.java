@@ -27,7 +27,6 @@ public class ExemploArrayBasico {
         //obx1.amosar(temperaturas2);
         Arrays.sort(temperaturas2);
         obx1.amosar(temperaturas2);
-        obx1.amosar(temperaturas2);
         
         
         float[]temperaturas3 = new float[7];

@@ -17,7 +17,10 @@ public class ExemploArrayBasico {
         temperaturas1[6] = 19.5F;
         //obx1.amosar(temperaturas1);
         //obx1.amosarTemperatura(temperaturas1);
-        obx1.buscarTemperatura(temperaturas1);
+        //obx1.buscarTemperatura(temperaturas1);
+        obx1.ordenar(temperaturas1);
+        obx1.amosar(temperaturas1);
+        
         
         float[]temperaturas2 = {18.3F,21.2F,19.5F,17.8F};
         //obx1.amosar(temperaturas2);

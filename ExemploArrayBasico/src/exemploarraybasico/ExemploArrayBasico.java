@@ -1,5 +1,6 @@
 package exemploarraybasico;
 
+import java.util.Arrays;
 import javax.swing.JOptionPane;
 
 public class ExemploArrayBasico {
@@ -18,12 +19,16 @@ public class ExemploArrayBasico {
         //obx1.amosar(temperaturas1);
         //obx1.amosarTemperatura(temperaturas1);
         //obx1.buscarTemperatura(temperaturas1);
-        obx1.ordenar(temperaturas1);
-        obx1.amosar(temperaturas1);
+        //obx1.ordenar(temperaturas1);
+        //obx1.amosar(temperaturas1);
         
         
         float[]temperaturas2 = {18.3F,21.2F,19.5F,17.8F};
         //obx1.amosar(temperaturas2);
+        Arrays.sort(temperaturas2);
+        obx1.amosar(temperaturas2);
+        obx1.amosar(temperaturas2);
+        
         
         float[]temperaturas3 = new float[7];
         //for (int i=0;i<temperaturas3.length;i++){
